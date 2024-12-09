@@ -1,0 +1,119 @@
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--green-color);
+}
+img{
+  width: 75%;
+}
+nav{
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--light-color) ;
+}
+:root{
+  --dark-color:#222222;
+  --light-color:#FFFFFF;
+  --blue-color:#1C5D99;
+  --green-color:#639FAB;
+  --sky-color:#BBCDE5;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  width: 4rem;
+ h4{
+  font-size: 1rem;
+  padding: 1rem;
+ }
+}
+.btn{
+  background-color: var(--sky-color);
+  color: var(--dark-color);
+}
+
+.menu{
+  display: flex;
+
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+  gap: 1rem;
+  li{
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  li:hover{
+    border: 2px solid var(--blue-color) ;
+    border-radius: 10px;
+    color: var(--blue-color);
+  }
+}
+
+.active{
+  border: 2px solid var(--blue-color) ;
+  border-radius: 10px;
+  color: var(--blue-color);
+}
+.find-btn{
+  position: absolute;
+  width: 5rem;
+  right: 0;
+  top: 0;
+  
+
+  background-color: var(--green-color);
+  
+
+}
+
+.search-bar{
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid var(--light-color);
+  background-color: var(--sky-color);
+}
+
+.header-lo{
+  background-color: var(--light-color);
+  border-radius: 15px;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem;
+}
+.card{
+  min-height: 200px;
+
+  span{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--blue-color);
+    padding: 0.5rem;
+    border-radius: 15px;
+    color: var(--light-color);
+  }
+}
+
+.card-text{
+  color: var(--dark-color);
+  font-size: 1.2rem;
+  padding: 1rem;
+
+}
+
+footer{
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 1rem;
+  text-align: center;
+}
